@@ -1,0 +1,9 @@
+.bgimage {
+background-image: url("../pic_1.jpg");
+background-size: 100%;
+background-repeat: no-repeat;
+}
+
+.bgimage-inside {
+padding-top: 35.42%; /* this is actually (340/960)*100 */
+}

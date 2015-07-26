@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>FitText example - responsive text</title>
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <style>
+            header{
+                margin:10%;
+            }
+            header h1, p{
+                text-align: center;
+            }
+            p{
+                font-size:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 id="responsive-header">Responsive header</h1>
+        </header>
+        <p>Resize the window to see the header adjusting.</p>
+
+        <script src="js/jquery-1.7.2.min.js"></script>
+        <script src="js/jquery.fittext.js"></script>
+        <script>
+            //call fitText() function for the element you want to be fluid
+            $("#responsive-header").fitText();
+            //Font-size = 1/10th of the element's width
+        </script>
+    </body>
+</html>
